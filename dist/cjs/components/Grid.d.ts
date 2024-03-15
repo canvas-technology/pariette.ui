@@ -1,5 +1,5 @@
 import React from 'react';
-declare const Container: ({ children }: {
+declare const Grid: ({ children }: {
     children: React.ReactNode;
 }) => React.JSX.Element;
-export default Container;
+export default Grid;

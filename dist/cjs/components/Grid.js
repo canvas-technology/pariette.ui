@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var Container = function (_a) {
+var Grid = function (_a) {
     var children = _a.children;
-    return (react_1.default.createElement("div", { className: "container" }, children));
+    return (react_1.default.createElement("div", { className: "grid" }, children));
 };
-exports.default = Container;
-//# sourceMappingURL=Container.js.map
+exports.default = Grid;
+//# sourceMappingURL=Grid.js.map

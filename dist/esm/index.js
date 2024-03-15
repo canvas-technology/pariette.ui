@@ -1,3 +1,4 @@
 import Container from './components/Container';
-export { Container };
+import Grid from './components/Grid';
+export { Container, Grid };
 //# sourceMappingURL=index.js.map
