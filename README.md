@@ -1,1 +1,4 @@
-# pariette.ui
+# parietteUI
+
+-- npm version minor
+-- npm publish
