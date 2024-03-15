@@ -1,19 +1,12 @@
-import React from 'react'
-type Props = {
-    children?: never,
-    width?: string,
-    gap?: string
-}
+import React from 'react';
 
-const Container = ({children, width= '100%', gap= '10px'}: Props) => {
-    return (
-        <div style={{
-            width: width,
-            gap: gap
-        }}>
-            {children}
-        </div>
-    )
+const Container = ({ children }: { children: React.ReactNode }) => {
+
+	return (
+		<div className="container">
+			{children}
+		</div>
+	);
 }
 
 export default Container
