@@ -1,12 +1,13 @@
-import React from 'react';
+"use client";
+import React from "react";
+import Grid from "./Grid";
 
-const Container = ({ children }: { children: React.ReactNode }) => {
-
-	return (
-		<div className="container">
-			{children}
-		</div>
-	);
+interface ContainerProps {
+  children: React.ReactNode;
 }
 
-export default Container
+const Container = ({ children }: ContainerProps) => {
+  return <Grid container>{children}</Grid>;
+};
+
+export default Container;
