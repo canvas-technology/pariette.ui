@@ -1,5 +1,6 @@
-import React from 'react';
-declare const Container: ({ children }: {
+import React from "react";
+interface ContainerProps {
     children: React.ReactNode;
-}) => React.JSX.Element;
+}
+declare const Container: ({ children }: ContainerProps) => React.JSX.Element;
 export default Container;
