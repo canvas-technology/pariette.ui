@@ -1,5 +1,7 @@
+import FloatButton from './components/FloatButton'
 import Grid from './components/Grid'
 
 export {
-    Grid
+    FloatButton, Grid
 }
+
