@@ -12,6 +12,7 @@ interface GridProps {
   //items
   span?: number
   start?: number
+  //incoming
   // end?: number;
 }
 
