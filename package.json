@@ -1,6 +1,6 @@
 {
   "name": "parietteui",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
